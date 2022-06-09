@@ -1,0 +1,29 @@
+.container-btn-flex > button {
+  height: 60px;
+  margin: 0 0.3em 0 0;
+  padding: 1.5em;
+  background-color: white;
+  border: solid 2px #32a1ce;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.container-block {
+  display: flex;
+  width: 50vw;
+  height: 200px;
+  border: solid 2px #32a1ce;
+}
+
+.container-block,
+.container-btn-flex {
+  margin: 2em;
+}
+
+.line {
+  min-width: 30px;
+  margin: 0.2em;
+  color: #32a1ce;
+  font-size: 25px;
+  background-color: aqua;
+  text-align: center;
+}
